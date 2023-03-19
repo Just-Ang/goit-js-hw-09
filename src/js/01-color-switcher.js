@@ -1,7 +1,7 @@
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
-
+let timerId;
 const startBtn = document.querySelector('[data-start]');
 // console.log(startBtn);
 const stopBtn = document.querySelector('[data-stop]');
